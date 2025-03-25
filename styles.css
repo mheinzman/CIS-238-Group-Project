@@ -1,0 +1,114 @@
+/*
+	CIS 238 Group Project
+	styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, div, img, ul {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Style rules for body and images */
+body {
+	background-color: #8D5B4C;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+/* Style rule for box sizing applies to all elements */
+*{
+	box-sizing: border-box;
+}
+
+/* Begin style rules for mobile viewport */
+
+/* Style rules for header */
+header {
+	display: flex;
+    align-items: center;
+	justify-content: center;
+    padding: 20px 0;
+    height: 100px;
+}
+
+header img {
+    margin-right: 20px;	
+	height: 65px;
+    width: auto;
+}
+
+header h1 {
+	font-family: "Playfair Display", serif;
+    font-size: 2 em;
+    color: #fff;
+}
+
+/* Style for rules for navigation area */
+nav {
+	padding: 1%;
+	margin-bottom: 1%;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+nav li {
+	font-size: 1.5em;
+	font-family: "Karla", sans-serif;
+	border-top: 1px solid #fff;
+}
+
+nav li:first-child {
+	border-top: none;
+}
+
+nav li a {
+	display: block;
+	color: #fff;
+	padding: 0.5em 1em;
+	text-decoration: none;
+}
+
+/* Show mobile class, hide tablet-desktop class */
+.mobile {
+	display: block;
+}
+
+.tablet-desktop {
+	display: none;
+}
+
+/* Style rules for main content */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+	color: #fff;
+	font-family: "Karla", sans-serif;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #5a2a27;
+    color: #fff;
+	font-family: "Karla", sans-serif;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
